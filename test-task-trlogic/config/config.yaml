@@ -1,0 +1,3 @@
+storage_path: "data/file_storage"
+web_server:
+  bind_address: "0.0.0.0:8888"

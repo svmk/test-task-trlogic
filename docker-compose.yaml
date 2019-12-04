@@ -1,0 +1,7 @@
+version: '2'
+services:
+  test-task-trlogic:
+    build:
+      context: ./
+    ports:
+      - "8888:8888"

@@ -1,0 +1,36 @@
+[package]
+name = "test-task-trlogic"
+version = "0.1.0"
+authors = ["Mikhail Svetov <svmk-tmsk@yandex.ru>"]
+repository = "https://github.com/svmk/test-task-trlogic"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+failure = "0.1"
+url = {version = "2.0", features = ["serde"]}
+reqwest = "0.9"
+url1 = {version = "1.0", package = "url"}
+base64 = "0.11.0"
+mime = "0.3.14"
+mime_guess = "2.0.1"
+data-url = "0.1.0"
+tempfile = "3.1"
+serde = "1.0"
+serde_json = "1.0"
+serde_yaml = "0.8"
+uuid = {version = "0.8.1", features = ["v4"]}
+derive-new = "0.5.8"
+warp="0.1"
+futures_old = {version = "0.1", package = "futures"}
+futures = {version = "0.3", features = ["compat"]}
+http = "0.1"
+once_cell = "1.2"
+structopt = { version = "0.3", default-features = false }
+tokio-fs = "0.1"
+tokio = "0.1"
+hyper = "0.12"
+opencv = { path = "../libs/opencv" }
+async-trait = "0.1"
+signal-hook = "0.1"
